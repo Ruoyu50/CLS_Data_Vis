@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sleep Quality vs Health Metrics</h1>
+
+    <label for="metricSelect">Select Metric:</label>
+    <select id="metricSelect">
+      <option value="Stress Level">Average Stress Level</option>
+      <option value="Sleep Duration">Average Sleep Duration</option>
+      <option value="Physical Activity Level">Average Physical Activity Level</option>
+    </select>
+
+    <canvas id="myChart"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
